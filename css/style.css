@@ -1,0 +1,102 @@
+@import url('./header.css');
+@import url('./hero.css');
+
+@import url('./ours.css');
+
+@import url('./video.css');
+@import url('./map.css');
+
+@import url('./footer.css');
+
+
+body {
+    background-color: gray;
+}
+
+.bild__row {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.bild__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bild__card h2 {
+    width: 133px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.bild {
+    margin-top: 150px;
+}
+
+.look {
+    background: url('../img/bc-look.png');
+    background-position: center;
+    height: 560px;
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: auto;
+}
+
+.look__contnet {
+    padding-top: 180px;
+    display: flex;
+    align-items: center;
+
+}
+
+.look__left h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #D4C17F;
+}
+
+.look__left p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    width: 535px;
+}
+
+button {
+    width: 255px;
+    height: 50px;
+    color: #BEBEBE;
+}
+
+.look__btn {
+    background-color: #D4C17F;
+    color: #ffffff;
+}
+
+.look__bottom {
+    display: flex;
+    gap: 30px;
+}
+
+.look__bottom p {
+    width: 255px;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #E7E7E7;
+}
+.look__top{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 29px;
+}

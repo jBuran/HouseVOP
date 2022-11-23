@@ -1,0 +1,9 @@
+.map{
+    margin-top: 180px;
+}
+.map__content h2{
+    color: #D4C17F;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: sans-serif;
+}

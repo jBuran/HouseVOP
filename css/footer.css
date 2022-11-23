@@ -1,0 +1,20 @@
+.footer{
+    margin-top: 100px;
+}
+.footer__content{
+    display: flex;
+    gap: 165px;
+    align-items: start;
+}
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer__web{
+    display: flex;
+    gap: 20px;
+}
+.footer__item span{
+    color: #D4C17F;
+}
